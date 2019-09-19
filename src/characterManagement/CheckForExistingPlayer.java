@@ -1,7 +1,7 @@
 package characterManagement;
 
 import olediuminjava.CoreValues;
-
+import characterManagement.LoadPlayerStats;
 import java.io.File;
 
 public class CheckForExistingPlayer {
@@ -15,6 +15,7 @@ public class CheckForExistingPlayer {
         if (tempFile.isFile()) {
             CoreValues.returningPlayerStatus = true;
             System.out.println("[LOG] A Character Sheet already exists");
+            LoadPlayerStats.readCharacterSheet();
         } else {
             CoreValues.returningPlayerStatus = false;
             System.out.println("[LOG] There's no Character Sheet");
