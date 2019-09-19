@@ -1,7 +1,5 @@
 package olediuminjava;
 
-import characterManagement.CreatePlayer;
-import olediuminjava.CoreValues;
 import static helpers.KeyCommands.whatDoYouWantToDoNext;
 import gameText.HelpFile;
 
@@ -21,7 +19,7 @@ public class RunTheGame {
                     HelpFile.helpText();
                     System.out.println("[LOG] h and help - partially implmented. \n\n");
                     break;
-                case "q":
+                case "q": 
                 case "quit":
                     System.out.println("[LOG] q and quit\n");
                     olediuminjava.EndTheGame.recordStatsAndQuit();                   
