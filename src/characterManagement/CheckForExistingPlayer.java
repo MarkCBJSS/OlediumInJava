@@ -1,7 +1,6 @@
 package characterManagement;
 
 import olediuminjava.CoreValues;
-import characterManagement.LoadPlayerStats;
 import java.io.File;
 
 public class CheckForExistingPlayer {

@@ -1,12 +1,19 @@
 package olediuminjava;
 
 public class CoreValues {
-    
-    public static String theNextAction;
-    
-    public static boolean returningPlayerStatus; // true = Played before, false = New Player
-    public static boolean isPlayerAlive = true; //false = dead, true = alive
 
+    // Checks if the player has played before
+    public static boolean returningPlayerStatus; // true = Played before, false = New Player
+    
+    // Character Name created at the start or pulled in from existing character sheet
+    public static String thePlayerName;
+    
+    // Case value to manage game flow
+    public static String theNextAction;
+
+    // Check the player is still alive
+    public static boolean isPlayerAlive = true; //false = dead, true = alive    
+    
     // Core Character Stats
     public static int playerMaxHp = 100;  // Hit points (HP)
     public static int playerCurrentHp;    // HP of the player once the game is underway

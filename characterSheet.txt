@@ -2,7 +2,7 @@
 
 ####################   CHARACTER   ####################
 #                                                      
-#  Character Name: null  
+#  Character Name: Cyreath Mortisbane    
 #      Hit Points:                                     
 #         Stamina:                                     
 #        Strength:                                     

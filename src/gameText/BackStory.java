@@ -1,6 +1,6 @@
 package gameText;
 
-import characterManagement.CreatePlayer;
+import olediuminjava.CoreValues;
 
 public class BackStory {
     
@@ -25,7 +25,7 @@ public class BackStory {
     }
     
     public static void onYourOwn() {
-        System.out.println("o**{====>    You're on your own now, " + CreatePlayer.thePlayerName + ". Good luck!    <====}**o");
+        System.out.println("o**{====>    You're on your own now, " + CoreValues.thePlayerName + ". Good luck!    <====}**o");
     }
     
 }

@@ -2,7 +2,6 @@ package characterManagement;
 
 import java.util.Formatter;
 
-import characterManagement.CreatePlayer;
 import olediuminjava.CoreValues;
 
 public class CreateUpdateCharacterSheet {
@@ -17,7 +16,7 @@ public class CreateUpdateCharacterSheet {
             f.format("%s", "                 o**{====>   <====}**o                 \n\n");
             f.format("%s", "####################   CHARACTER   ####################\n");
             f.format("%s", "#                                                      \n");
-            f.format("%s", "#  Character Name: " + CreatePlayer.thePlayerName + "  \n");
+            f.format("%s", "#  Character Name: " + CoreValues.thePlayerName + "    \n");
             f.format("%s", "#      Hit Points:                                     \n");
             f.format("%s", "#         Stamina:                                     \n");
             f.format("%s", "#        Strength:                                     \n");
