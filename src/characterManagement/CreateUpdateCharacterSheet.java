@@ -43,4 +43,21 @@ public class CreateUpdateCharacterSheet {
         }
         
     }
+    
+        public static void createUpdateTheStatsSheet() {
+        
+        try {
+            //Formatter f = new Formatter(CoreValues.locationOfCharacterSheet + "characterSheet.txt");
+            Formatter f = new Formatter("statsSheet.txt");
+            
+            
+            f.format("%s", "Character Name: " + CoreValues.thePlayerName);
+            
+            f.close();
+            
+        } catch(Exception e) {
+            System.out.println("[LOG] Error with in createUpdateTheStatsSheet()");
+        }
+        
+    }
 }

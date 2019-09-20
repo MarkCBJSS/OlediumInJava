@@ -6,7 +6,7 @@ public class FileData {
 
     public static void getFileData() throws IOException {
         
-        String file_name = "test.txt";
+        String file_name = "/Users/mark.crowther/dev/java/textFiles/src/textfiles/test.txt";
         
         try {
             ReadFile file = new ReadFile(file_name);

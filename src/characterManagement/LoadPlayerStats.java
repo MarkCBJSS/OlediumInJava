@@ -1,4 +1,3 @@
-
 package characterManagement;
 
 public class LoadPlayerStats {
