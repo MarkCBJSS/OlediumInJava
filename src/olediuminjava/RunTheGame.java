@@ -37,7 +37,7 @@ public class RunTheGame {
                     System.out.println("[LOG] s and search - Yet to be implemented \n\n");
                     break;                    
                 default:
-                    System.out.println("[LOG] Default option in theNextAction switch \n\n");
+                    System.out.println("I didn't recognise that command. Try using 'h' or 'help'. \n\n");
                     break;
             }
         }

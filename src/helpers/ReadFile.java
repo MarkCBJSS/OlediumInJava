@@ -1,8 +1,11 @@
+// This file is used by helpers/FileData.java
+
 package helpers;
 
 import java.io.IOException;
 import java.io.FileReader;
 import java.io.BufferedReader;
+import olediuminjava.CoreValues;
 
 public class ReadFile {
     
@@ -25,8 +28,9 @@ public class ReadFile {
         // the size of the array is set to the number of lines in readLines()
         int numberOfLines = readLines();
         String[] textData = new String[numberOfLines];
+        System.out.println("[LOG] I set the textData string array to the lines in the Statsfile");
         
-        // To itereate over the text file and get each lines stored in the 
+        // To iterate over the text file and get each lines stored in the 
         // array we need to have a loop
         int i;
         
@@ -34,6 +38,10 @@ public class ReadFile {
             textData[i] = textReader.readLine();
         }
         
+        // Before we close the file, write the recovered values into the active variables
+        CoreValues.thePlayerName = textData[0];
+        
+
         // Close the file to flush the temporary memory
         textReader.close();
         return textData;

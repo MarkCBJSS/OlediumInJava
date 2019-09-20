@@ -48,10 +48,9 @@ public class CreateUpdateCharacterSheet {
         
         try {
             //Formatter f = new Formatter(CoreValues.locationOfCharacterSheet + "characterSheet.txt");
-            Formatter f = new Formatter("statsSheet.txt");
+            Formatter f = new Formatter("statsSheet.log");            
             
-            
-            f.format("%s", "Character Name: " + CoreValues.thePlayerName);
+            f.format("%s", CoreValues.thePlayerName);
             
             f.close();
             

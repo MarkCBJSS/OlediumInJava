@@ -1,0 +1,24 @@
+Character Gen
+    Randomly generate stats for Stamina, Strength and Luck IF new player
+    Load statsSheet.log if the player is returning
+
+Actions
+    Attack
+        Fight in turn, first hit depends on a luck roll
+        HP deducted is Luck and Strength
+        When mob dies it drops loot
+    Flee
+        Results in loss of 2 HP and 1 Luck
+    Search
+        May find a loot item or attract a Mob
+
+Inventory
+    Create a BACKPACK Class and
+
+Loot Items
+    Create a list of loot items and what they do
+    Stats may vary slightly so make them a Class
+
+Mobs
+    Create a Mob class
+    
