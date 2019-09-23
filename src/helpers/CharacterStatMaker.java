@@ -11,12 +11,13 @@ package helpers;
 
 import olediuminjava.CoreValues;
 import helpers.CharacterStatMaker;
+import helpers.KeyCommands;
 
 public class CharacterStatMaker {
     
     public static void generatePlayerHP() {
-        statMaker(CoreValues.playerMaxHp);
-        CoreValues.playerCurrentHp = randomStat;
+        CoreValues.playerCurrentHp = KeyCommands.statMaker(CoreValues.playerMaxHp);
+        //CoreValues.playerCurrentHp = KeyCommands.randomStat;
     }
     
     public static void generatePlayerSP() {

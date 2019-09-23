@@ -5,6 +5,7 @@ import java.util.Scanner;
 import gameText.SplashScreens;
 import olediuminjava.CoreValues;
 //import characterManagement.CreateUpdateCharacterSheet;
+import helpers.CharacterStatMaker;
 
 public class CreatePlayer {
     
@@ -18,7 +19,11 @@ public class CreatePlayer {
         System.out.println("[LOG] Got the chacter name of: " + CoreValues.thePlayerName);
       
         // Generate starting stats and instance of the player
+        CharacterStatMaker.generatePlayerHP();
+        System.out.println("[LOG] Generated Player HP: " + CoreValues.playerCurrentHp + ".");
+        
         // Set-up an instance of the Character Inventory
+        
         // Set-up an instance of the Character Backpack
         
         CreateUpdateCharacterSheet.createUpdateTheCharacterSheet();

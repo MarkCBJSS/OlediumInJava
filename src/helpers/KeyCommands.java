@@ -6,6 +6,8 @@ import olediuminjava.CoreValues;
 
 public class KeyCommands {
     
+    public static int randomStat;
+    
     // Used to hold a player at a certain point
     public static void waitForEnterKey() {
         Scanner getEnterKey = new Scanner(System.in);
@@ -20,6 +22,13 @@ public class KeyCommands {
         System.out.println("          ----------------------------");
         CoreValues.theNextAction = getNextAction.nextLine();
         return CoreValues.theNextAction;
+    }
+    
+    // Generates a random stat when making the character
+    public static int statMaker(int max_stat) {
+        int randomStat = (int)(Math.random() * max_stat + 1);
+        System.out.println("[LOG] Returning randomStat which is: " + randomStat);
+        return randomStat;
     }
 
 }

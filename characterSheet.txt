@@ -2,8 +2,8 @@
 
 ####################   CHARACTER   ####################
 #                                                      
-#  Character Name: Cyreath Monkeybane    
-#      Hit Points:                                     
+#  Character Name: Banana    
+#      Hit Points: 81  
 #         Stamina:                                     
 #        Strength:                                     
 #            Luck:                                     

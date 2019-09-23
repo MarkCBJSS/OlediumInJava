@@ -17,10 +17,10 @@ public class CreateUpdateCharacterSheet {
             f.format("%s", "####################   CHARACTER   ####################\n");
             f.format("%s", "#                                                      \n");
             f.format("%s", "#  Character Name: " + CoreValues.thePlayerName + "    \n");
-            f.format("%s", "#      Hit Points:                                     \n");
-            f.format("%s", "#         Stamina:                                     \n");
-            f.format("%s", "#        Strength:                                     \n");
-            f.format("%s", "#            Luck:                                     \n");
+            f.format("%s", "#      Hit Points: " + CoreValues.playerCurrentHP + "  \n");
+            f.format("%s", "#         Stamina: " + CoreValues.playerCurrentSTA + " \n");
+            f.format("%s", "#        Strength: " + CoreValues.playerCurrentSTR + " \n");
+            f.format("%s", "#            Luck: " + CoreValues.playerCurrentLUC + " \n");
             f.format("%s", "#                                                      \n");
             f.format("%s", "#######################################################\n");
             f.format("%s", "                                                       \n");
@@ -50,7 +50,11 @@ public class CreateUpdateCharacterSheet {
             //Formatter f = new Formatter(CoreValues.locationOfCharacterSheet + "characterSheet.txt");
             Formatter f = new Formatter("statsSheet.log");            
             
-            f.format("%s", CoreValues.thePlayerName);
+            f.format("%s", CoreValues.thePlayerName + "\n");
+            f.format("%s", CoreValues.playerCurrentHP + "\n");
+            f.format("%s", CoreValues.playerCurrentSTA + "\n");
+            f.format("%s", CoreValues.playerCurrentSTR + "\n");
+            f.format("%s", CoreValues.playerCurrentLUC + "\n");
             
             f.close();
             

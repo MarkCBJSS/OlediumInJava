@@ -40,6 +40,7 @@ public class ReadFile {
         
         // Before we close the file, write the recovered values into the active variables
         CoreValues.thePlayerName = textData[0];
+        //CoreValues.playerCurrentHp = textData[1];
         
 
         // Close the file to flush the temporary memory
