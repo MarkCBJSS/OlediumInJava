@@ -5,7 +5,9 @@ package helpers;
 import java.io.IOException;
 import java.io.FileReader;
 import java.io.BufferedReader;
+
 import olediuminjava.CoreValues;
+import helpers.LogNote;
 
 public class ReadFile {
     
@@ -28,7 +30,7 @@ public class ReadFile {
     // the size of the array is set to the number of lines in readLines()
         int numberOfLines = readLines();
         String[] textData = new String[numberOfLines];
-        System.out.println("[LOG] I set the textData string array to the lines in the Statsfile");
+        System.out.println(LogNote.log005);
         
     // To iterate over the text file and get each lines stored in the 
     // array we need to have a loop
@@ -39,6 +41,7 @@ public class ReadFile {
         }
         
     // Before we close the file, write the recovered values into the active variables
+        // TODO: Wrap this in a for statement
         CoreValues.thePlayerName   = textData[0];
         CoreValues.playerCurrentHP = Integer.parseInt(textData[1]);
         CoreValues.playerCurrentSTA = Integer.parseInt(textData[2]);  

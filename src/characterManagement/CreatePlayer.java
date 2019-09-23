@@ -6,6 +6,7 @@ import gameText.SplashScreens;
 import olediuminjava.CoreValues;
 //import characterManagement.CreateUpdateCharacterSheet;
 import helpers.CharacterStatMaker;
+import helpers.LogNote;
 
 public class CreatePlayer {
     
@@ -17,20 +18,20 @@ public class CreatePlayer {
         Scanner getPlayerName = new Scanner(System.in);
         System.out.println("\n    What's your Hero called?");
         CoreValues.thePlayerName = getPlayerName.nextLine();
-        System.out.println("[LOG] Got the chacter name of: " + CoreValues.thePlayerName);
+        System.out.println(LogNote.log000);
       
     // Generate starting stats
         CharacterStatMaker.generatePlayerHP();
-        System.out.println("[LOG] Generated Player HP: " + CoreValues.playerCurrentHP + ".");
+        System.out.println(LogNote.log001);
 
         CharacterStatMaker.generatePlayerSTR();
-        System.out.println("[LOG] Generated Player STR: " + CoreValues.playerCurrentSTR + ".");
+        System.out.println(LogNote.log002);
 
         CharacterStatMaker.generatePlayerSTA();
-        System.out.println("[LOG] Generated Player STA: " + CoreValues.playerCurrentSTA + ".");        
+        System.out.println(LogNote.log003);       
         
         CharacterStatMaker.generatePlayerLUC();
-        System.out.println("[LOG] Generated Player LUC: " + CoreValues.playerCurrentLUC + ".");
+        System.out.println(LogNote.log004);
         
     // Set-up an instance of the Character Inventory
         

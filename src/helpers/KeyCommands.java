@@ -26,7 +26,6 @@ public class KeyCommands {
 // Generates a random stat when making the character
     public static int statMaker(int max_stat) {
         int randomStat = (int)(Math.random() * max_stat + 1);
-        System.out.println("[LOG] Returning randomStat which is: " + randomStat);
         return randomStat;
     }
 
