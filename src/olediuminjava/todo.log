@@ -1,19 +1,28 @@
+Inventory
+    Create a BACKPACK and INVENTORY(?) Class
+
 Actions
     Attack
         Fight in turn, first hit depends on a luck roll
         HP deducted is Luck and Strength
         When mob dies it drops loot
+
     Flee
         Results in loss of 2 HP and 1 Luck
+
     Search
         May find a loot item or attract a Mob
+              
+    Equip / Unequip
+        Wear or hold an item
 
-Inventory
-    Create a BACKPACK and INVENTORY(?) Class
+    Use
+        Use item
+
 
 Loot Items
     Create a list of loot items and what they do
     Stats may vary slightly so make them a Class
 
 Mobs
-    Create a Mob class
+    Create a Mob > Sub-mob class

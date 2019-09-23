@@ -1,12 +1,13 @@
 package helpers;
 
+import characterManagement.ShowStatsInGame;
 import java.io.IOException;
 
 public class FileData {
 
     public static void getStatSheetData() throws IOException {
         
-        String file_name = "/Users/mark.crowther/dev/java/OlediumInJava/statsSheet.log";
+        String file_name = "statsSheet.log";
         System.out.println(LogNote.log014);
         
         try {
@@ -15,8 +16,8 @@ public class FileData {
             
             int i;
             for (i = 0; i < arryLines.length; i++) {
-                System.out.println(arryLines[i]);
             }
+                ShowStatsInGame.showCharacterInfo();
                 System.out.println(LogNote.log015);
         }
         catch (IOException e) {

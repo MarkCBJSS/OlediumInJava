@@ -12,7 +12,7 @@ public class CheckForExistingPlayer {
     public static void hasThePlayerPlayedBefore() throws IOException {
         
        // Load any existing file into tempFile 
-        File tempFile = new File("statsSheet.log");
+        File tempFile = new File(CoreValues.baseURI + "statsSheet.log");
        
        // Check if a file was loaded into tempFile
         if (tempFile.isFile()) {
