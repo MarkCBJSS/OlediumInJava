@@ -19,8 +19,8 @@ public class BackStory {
         System.out.println("  | still hangs on your belt.                                            |");
         System.out.println("  |                                                                      |");
         System.out.println("  | > You have no food or drink, so need to find some fast               |");
-        System.out.println("  | > Enter [tips] for game tips and for Help enter [h]                  |");
-        System.out.println("  | > Enter [char] for your Character Sheet                              |");        
+        System.out.println("  | > Enter [h] or [help] for basic commands                             |");
+        System.out.println("  | > Enter [c] or [char] for your Character Sheet                       |");        
         System.out.println("  *......................................................................*\n");
     }
     

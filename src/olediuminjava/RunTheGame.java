@@ -3,6 +3,7 @@ package olediuminjava;
 import static helpers.KeyCommands.whatDoYouWantToDoNext;
 import gameText.HelpFile;
 import characterManagement.ShowStatsInGame;
+import helpers.LogNote;
 
 public class RunTheGame {
     
@@ -18,7 +19,7 @@ public class RunTheGame {
                 case "h":
                 case "help":
                     HelpFile.helpText();
-                    System.out.println("[LOG] h and help - partially implmented. \n\n");
+                    System.out.println(LogNote.log006);
                     break;
                 case "c":
                 case "char":
@@ -30,18 +31,18 @@ public class RunTheGame {
                     break;
                 case "a":
                 case "attack":
-                    System.out.println("[LOG] a and attack - Yet to be implemented \n\n");
+                    System.out.println(LogNote.log007);
                     break;                    
                 case "f":
                 case "flee":
-                    System.out.println("[LOG] f and flee - Yet to be implemented \n\n");
+                    System.out.println(LogNote.log008);                    
                     break;
                 case "s":
                 case "search":
-                    System.out.println("[LOG] s and search - Yet to be implemented \n\n");
+                    System.out.println(LogNote.log009);                       
                     break;                    
                 default:
-                    System.out.println("I didn't recognise that command. Try using 'h' or 'help'. \n\n");
+                    System.out.println(LogNote.log010);                       
                     break;
             }
         }

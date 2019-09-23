@@ -2,11 +2,11 @@
 
 ####################   CHARACTER   ####################
 #                                                      
-#  Character Name: bananana    
-#      Hit Points: 3  
-#         Stamina: 37 
-#        Strength: 20 
-#            Luck: 3 
+#  Character Name: Cyreath Bananana    
+#      Hit Points: 49  
+#         Stamina: 45 
+#        Strength: 32 
+#            Luck: 15 
 #                                                      
 #######################################################
                                                        

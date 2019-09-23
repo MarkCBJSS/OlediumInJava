@@ -11,7 +11,7 @@ import helpers.LogNote;
 public class CreatePlayer {
     
     public static String generateNewPlayerCharacter() {    
-        System.out.println("[LOG] Moved to generateNewPlayerCharacter()");
+        System.out.println(LogNote.log011);
         SplashScreens.buildAHeroText();
     
     // Get the player character name    
