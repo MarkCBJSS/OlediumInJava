@@ -15,12 +15,17 @@ public class CoreValues {
     public static boolean isPlayerAlive = true; //false = dead, true = alive    
     
     // Core Character Stats
-    public static int playerMaxHp = 100;  // Hit points (HP)
-    public static int playerCurrentHp;    // HP of the player once the game is underway
-    public static int playerMaxSp = 50;   // Stamina points (SP)
-    public static int playerCurrentSp;    // SP of the player once the game is underway
-    public static int playerMaxLp = 10;   // Luck points (LP)
-    public static int playerCurrentLp;    // LP of the player once the game is underway
+    public static int playerMaxHP = 100;  // Hit points (HP)
+    public static int playerCurrentHP;    // HP of the player once the game is underway
+    
+    public static int playerMaxSTA = 50;   // Stamina points (STA)
+    public static int playerCurrentSTA;    // SP of the player once the game is underway
+    
+    public static int playerMaxSTR = 50; // Strength points (STR)
+    public static int playerCurrentSTR;   // STp of the player once the game is underway
+    
+    public static int playerMaxLUC = 20;   // Luck points (LUC)
+    public static int playerCurrentLUC;    // LP of the player once the game is underway
     
     // Limits of Stats
     public static int maxAllowableHealth = 100; // No boosts can take base health above 100

@@ -1,13 +1,13 @@
 package characterManagement;
 
-import static olediuminjava.CoreValues.playerCurrentHp;
+import olediuminjava.CoreValues;
 import static olediuminjava.CoreValues.isPlayerAlive;
 
 public class DeadOrAlive {
     
     // Check if the player is Dead or Alive
     public void isThePlayerAlive() {
-        if (playerCurrentHp <= 0) {
+        if (CoreValues.playerCurrentHP <= 0) {
             isPlayerAlive = false; //dead
         } else {
             isPlayerAlive = true; // alive

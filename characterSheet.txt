@@ -2,11 +2,11 @@
 
 ####################   CHARACTER   ####################
 #                                                      
-#  Character Name: Banana    
-#      Hit Points: 81  
-#         Stamina:                                     
-#        Strength:                                     
-#            Luck:                                     
+#  Character Name: Cyreath Banana    
+#      Hit Points: 58  
+#         Stamina: 50 
+#        Strength: 85 
+#            Luck: 8 
 #                                                      
 #######################################################
                                                        
