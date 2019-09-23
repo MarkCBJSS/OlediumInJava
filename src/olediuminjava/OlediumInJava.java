@@ -5,7 +5,6 @@ import java.io.IOException;
 import gameText.SplashScreens;
 import gameText.BackStory;
 import helpers.KeyCommands;
-import helpers.FileData;
 import characterManagement.CheckForExistingPlayer;
 import characterManagement.CreatePlayer;
 
@@ -23,6 +22,7 @@ public class OlediumInJava {
         // Omit the backstory if the player has played before
         if (CoreValues.returningPlayerStatus == true) {
             System.out.println("Welcome back, " + CoreValues.thePlayerName);
+            System.out.println("");
             
         } else { // The player is new so they get backstory            
             CreatePlayer.generateNewPlayerCharacter();

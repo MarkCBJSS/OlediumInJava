@@ -9,6 +9,7 @@ public class HelpFile {
         System.out.println("| Basic Commands                                                |");
         System.out.println("|   [h] or [help] for in-game help                              |");
         System.out.println("|   [q] or [quit] to quit the game (saves your character sheet) |");
+        System.out.println("|   [c] or [char] to view your character sheet                  |");        
         System.out.println("|                                                               |");
         System.out.println("| Actions                                                       |");        
         System.out.println("|   [a] or [attack] to start fighting a mob                     |");

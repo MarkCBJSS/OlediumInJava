@@ -1,5 +1,4 @@
 Character Gen
-    Randomly generate stats for Stamina, Strength and Luck IF new player
     Load statsSheet.log if the player is returning
 
 Actions

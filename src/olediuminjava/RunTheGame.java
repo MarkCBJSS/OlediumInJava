@@ -2,6 +2,7 @@ package olediuminjava;
 
 import static helpers.KeyCommands.whatDoYouWantToDoNext;
 import gameText.HelpFile;
+import helpers.KeyCommands;
 
 public class RunTheGame {
     
@@ -19,10 +20,15 @@ public class RunTheGame {
                     HelpFile.helpText();
                     System.out.println("[LOG] h and help - partially implmented. \n\n");
                     break;
+                case "c":
+                case "char":
+                    KeyCommands.showCharacterInfo();
+                    System.out.println("[LOG] c and char - partially implmented. \n\n");
+                    break;
                 case "q": 
                 case "quit":
                     System.out.println("[LOG] q and quit\n");
-                    olediuminjava.EndTheGame.recordStatsAndQuit();                   
+                    olediuminjava.EndTheGame.recordStatsAndQuit();                
                     break;
                 case "a":
                 case "attack":

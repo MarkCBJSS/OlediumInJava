@@ -2,11 +2,11 @@
 
 ####################   CHARACTER   ####################
 #                                                      
-#  Character Name: Cyreath Banana    
-#      Hit Points: 58  
-#         Stamina: 50 
-#        Strength: 85 
-#            Luck: 8 
+#  Character Name: Cyreath Cannonball    
+#      Hit Points: 17  
+#         Stamina: 24 
+#        Strength: 12 
+#            Luck: 11 
 #                                                      
 #######################################################
                                                        

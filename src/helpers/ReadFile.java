@@ -15,35 +15,37 @@ public class ReadFile {
         path = file_path;
     }
     
-    // Opens the file, reads the lines in and stores them in an array
-    // called textdata.
+// Opens the file, reads the lines in and stores them in an array
+// called textdata.
     public String[] OpenFile() throws IOException {
         
-        // FileReader takes in bytes (single characters) so we wrap it
-        // with BufferedReader which lets us work with complete lines
+    // FileReader takes in bytes (single characters) so we wrap it
+    // with BufferedReader which lets us work with complete lines
         FileReader fr = new FileReader(path);
         BufferedReader textReader = new BufferedReader(fr);
         
-        // the lines that are read in are stored in an array called textData
-        // the size of the array is set to the number of lines in readLines()
+    // the lines that are read in are stored in an array called textData
+    // the size of the array is set to the number of lines in readLines()
         int numberOfLines = readLines();
         String[] textData = new String[numberOfLines];
         System.out.println("[LOG] I set the textData string array to the lines in the Statsfile");
         
-        // To iterate over the text file and get each lines stored in the 
-        // array we need to have a loop
+    // To iterate over the text file and get each lines stored in the 
+    // array we need to have a loop
         int i;
         
         for (i = 0; i < numberOfLines; i++) {
             textData[i] = textReader.readLine();
         }
         
-        // Before we close the file, write the recovered values into the active variables
-        CoreValues.thePlayerName = textData[0];
-        //CoreValues.playerCurrentHp = textData[1];
-        
+    // Before we close the file, write the recovered values into the active variables
+        CoreValues.thePlayerName   = textData[0];
+        CoreValues.playerCurrentHP = Integer.parseInt(textData[1]);
+        CoreValues.playerCurrentSTA = Integer.parseInt(textData[2]);  
+        CoreValues.playerCurrentSTR = Integer.parseInt(textData[3]);
+        CoreValues.playerCurrentLUC = Integer.parseInt(textData[4]);
 
-        // Close the file to flush the temporary memory
+    // Close the file to flush the temporary memory
         textReader.close();
         return textData;
     }
