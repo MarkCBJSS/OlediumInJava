@@ -2,11 +2,11 @@
 
 ####################   CHARACTER   ####################
 #                                                      
-#  Character Name: Cyreath Bananana    
-#      Hit Points: 49  
-#         Stamina: 45 
-#        Strength: 32 
-#            Luck: 15 
+#  Character Name: dadasd asdasdasd    
+#      Hit Points: 26  
+#         Stamina: 11 
+#        Strength: 45 
+#            Luck: 2 
 #                                                      
 #######################################################
                                                        

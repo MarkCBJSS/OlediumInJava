@@ -1,6 +1,7 @@
 package helpers;
 
 import olediuminjava.CoreValues;
+import characterManagement.PlayerInventoryMap;
 
 public class LogNote {
 
@@ -29,4 +30,10 @@ public class LogNote {
 // CheckForExistingPlayer
     public static String log012 = "[LOG 012] A Stat Log Sheet already exists";
     public static String log013 = "[LOG 013] There's NO Stats Log Sheet";
+    
+// PlayerInventory.java
+    public static String log016 = "[LOG 016] Displaying playerInventorySlots";
+    
+// CreatePlayerInventory
+    public static String log017 = "[LOG 017] Running buildTheInventory()";
 }

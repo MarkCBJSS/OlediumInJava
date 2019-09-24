@@ -1,15 +1,16 @@
 package characterManagement;
 
 import java.util.Scanner;
+import java.util.HashMap;
+import java.util.Map;
 
 import gameText.SplashScreens;
 import olediuminjava.CoreValues;
-//import characterManagement.CreateUpdateCharacterSheet;
 import helpers.CharacterStatMaker;
 import helpers.LogNote;
 
 public class CreatePlayer {
-    
+        
     public static String generateNewPlayerCharacter() {    
         System.out.println(LogNote.log011);
         SplashScreens.buildAHeroText();
@@ -32,16 +33,25 @@ public class CreatePlayer {
         
         CharacterStatMaker.generatePlayerLUC();
         System.out.println(LogNote.log004);
-        
-    // Set-up an instance of the Character Inventory
-        
-    // Set-up an instance of the Character Backpack
     
     // Generate the Character Sheet with the name and stats    
         CreateUpdateCharacterSheet.createUpdateTheCharacterSheet();
     
     // Return the player character name    
         return CoreValues.thePlayerName;
+    }
+    
+    public static void createInventory() {
+        PlayerInventoryMap x = new PlayerInventoryMap();
+        
+        System.out.println(LogNote.log016);
+        HashMap<String, String> playerInventorySlots = x.getInventorySlots();
+    //Work with the Hash Map here
+        
+        playerInventorySlots.put("Head", "Empty");
+        playerInventorySlots.put("Chest", "Rough Cotton Shirt");
+        
+        System.out.println(playerInventorySlots);
     }
     
 }

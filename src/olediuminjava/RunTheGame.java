@@ -3,6 +3,7 @@ package olediuminjava;
 import static helpers.KeyCommands.whatDoYouWantToDoNext;
 import gameText.HelpFile;
 import characterManagement.ShowStatsInGame;
+import characterManagement.PlayerInventoryMap;
 import helpers.LogNote;
 
 public class RunTheGame {
@@ -24,6 +25,7 @@ public class RunTheGame {
                 case "c":
                 case "char":
                     ShowStatsInGame.showCharacterInfo();
+                    //TODO: Show Inventory
                     break;
                 case "q": 
                 case "quit":

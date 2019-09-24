@@ -25,6 +25,7 @@ public class OlediumInJava {
             
         } else { // The player is new so they get backstory            
             CreatePlayer.generateNewPlayerCharacter();
+            CreatePlayer.createInventory();
             
             BackStory.backStory();
             KeyCommands.waitForEnterKey();
