@@ -1,5 +1,5 @@
 Inventory
-    Create a BACKPACK and INVENTORY(?) Class
+    Create an INVENTORY Hash
 
 Actions
     Attack
@@ -13,7 +13,7 @@ Actions
     Search
         May find a loot item or attract a Mob
               
-    Equip / Unequip
+    Equip / Un-equip
         Wear or hold an item
 
     Use

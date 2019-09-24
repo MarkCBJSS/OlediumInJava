@@ -5,8 +5,10 @@
         <group>
             <file>file:/Users/mark.crowther/dev/java/OlediumInJava/src/olediuminjava/OlediumInJava.java</file>
             <file>file:/Users/mark.crowther/dev/java/OlediumInJava/src/olediuminjava/RunTheGame.java</file>
-            <file>file:/Users/mark.crowther/dev/java/OlediumInJava/src/characterManagement/LoadPlayerStats.java</file>
-            <file>file:/Users/mark.crowther/dev/java/OlediumInJava/src/characterManagement/CreateUpdateCharacterSheet.java</file>
+            <file>file:/Users/mark.crowther/dev/java/OlediumInJava/src/characterManagement/CreatePlayer.java</file>
+            <file>file:/Users/mark.crowther/dev/java/OlediumInJava/src/characterManagement/ShowStatsInGame.java</file>
+            <file>file:/Users/mark.crowther/dev/java/OlediumInJava/src/characterManagement/PlayerInventoryMap.java</file>
+            <file>file:/Users/mark.crowther/dev/java/OlediumInJava/src/olediuminjava/todo.log</file>
         </group>
     </open-files>
 </project-private>
