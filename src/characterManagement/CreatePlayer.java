@@ -42,16 +42,14 @@ public class CreatePlayer {
     }
     
     public static void createInventory() {
-        PlayerInventoryMap x = new PlayerInventoryMap();
+        HashMap<String, String> playerInventory = new HashMap<>(); 
+
+          // 2 Adding values to HashMap as ("keys", "values") 
+            playerInventory.put("Head", "One"); 
+            playerInventory.put("Neck", "Two");
+            playerInventory.put("Chest","Rough Cotton Shirt");
         
-        System.out.println(LogNote.log016);
-        HashMap<String, String> playerInventorySlots = x.getInventorySlots();
-    //Work with the Hash Map here
-        
-        playerInventorySlots.put("Head", "Empty");
-        playerInventorySlots.put("Chest", "Rough Cotton Shirt");
-        
-        System.out.println(playerInventorySlots);
+        System.out.println(playerInventory);
     }
     
 }

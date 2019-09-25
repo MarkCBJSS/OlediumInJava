@@ -1,7 +1,6 @@
 package helpers;
 
 import olediuminjava.CoreValues;
-import characterManagement.PlayerInventoryMap;
 
 public class LogNote {
 
@@ -32,7 +31,7 @@ public class LogNote {
     public static String log013 = "[LOG 013] There's NO Stats Log Sheet";
     
 // PlayerInventory.java
-    public static String log016 = "[LOG 016] Displaying playerInventorySlots";
+    public static String log016 = "[LOG 016] Displaying playerInventory items";
     
 // CreatePlayerInventory
     public static String log017 = "[LOG 017] Running buildTheInventory()";
