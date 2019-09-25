@@ -1,8 +1,6 @@
 package characterManagement;
 
 import olediuminjava.CoreValues;
-import characterManagement.CreatePlayer;
-
 
 public class ShowStatsInGame {
     
@@ -14,7 +12,10 @@ public class ShowStatsInGame {
         System.out.println("  Stamina (STA):   "        + CoreValues.playerCurrentSTA);
         System.out.println("  Strength (STR):  "       + CoreValues.playerCurrentSTR);
         System.out.println("  Luck (LUC):      "           + CoreValues.playerCurrentLUC);
-        System.out.println("  \n---------------  Inventory   ---------------");
-        //System.out.println("  Head: " + CreatePlayer.
+    }
+    
+    public static void showInventoryInfo() {
+        System.out.println("  \n\n---------------  Inventory   ---------------");
+        // Add calls to the inventory here 
     }
 }

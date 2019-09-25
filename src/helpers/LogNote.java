@@ -6,11 +6,12 @@ public class LogNote {
 
 // CreatePlayer.java 
     public static String log011 = "[LOG 011] Moved to generateNewPlayerCharacter()";
-    public static String log000 = "[LOG 000] Got the character name of: " + CoreValues.thePlayerName;    
-    public static String log001 = "[LOG 001] Player HP: " + CoreValues.playerCurrentHP;
-    public static String log002 = "[LOG 002] Player STR: " + CoreValues.playerCurrentSTR;
-    public static String log003 = "[LOG 003] Player STA: " + CoreValues.playerCurrentSTA;
-    public static String log004 = "[LOG 004] Player LUC: " + CoreValues.playerCurrentLUC;
+    public static String log000 = "[LOG 000] Got the character name of: " + CoreValues.thePlayerName; 
+    
+    //public static String log001 = "[LOG 001] Player HP: " + CoreValues.playerCurrentHP;
+    //public static String log002 = "[LOG 002] Player STR: " + CoreValues.playerCurrentSTR;
+    //public static String log003 = "[LOG 003] Player STA: " + CoreValues.playerCurrentSTA;
+    //public static String log004 = "[LOG 004] Player LUC: " + CoreValues.playerCurrentLUC;
  
 // ReadFile.java
     public static String log005 = "[LOG 005] I set the textData string array to the lines in the Statsfile";

@@ -2,11 +2,11 @@
 
 ####################   CHARACTER   ####################
 #                                                      
-#  Character Name: dadasd asdasdasd    
-#      Hit Points: 26  
-#         Stamina: 11 
-#        Strength: 45 
-#            Luck: 2 
+#  Character Name: Banana Man    
+#      Hit Points: 10  
+#         Stamina: 48 
+#        Strength: 18 
+#            Luck: 9 
 #                                                      
 #######################################################
                                                        

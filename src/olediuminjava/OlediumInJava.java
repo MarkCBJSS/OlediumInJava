@@ -7,6 +7,7 @@ import gameText.BackStory;
 import helpers.KeyCommands;
 import characterManagement.CheckForExistingPlayer;
 import characterManagement.CreatePlayer;
+import characterManagement.Inventory;
 
 
 public class OlediumInJava {
@@ -25,12 +26,12 @@ public class OlediumInJava {
             
         } else { // The player is new so they get backstory            
             CreatePlayer.generateNewPlayerCharacter();
-            CreatePlayer.createInventory();
+            Inventory.createInventory();
             
-            BackStory.backStory();
-            KeyCommands.waitForEnterKey();
+            //BackStory.backStory();
+            //KeyCommands.waitForEnterKey();
 
-            BackStory.gameStartText();
+            //BackStory.gameStartText();
             BackStory.onYourOwn();
         }
        
