@@ -24,7 +24,7 @@ public class RunTheGame {
                 case "c":
                 case "char":
                     ShowStatsInGame.showCharacterInfo();
-                    //TODO: Show Inventory
+                    ShowStatsInGame.showInventoryInfo();
                     break;
                 case "q": 
                 case "quit":

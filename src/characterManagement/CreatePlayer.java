@@ -28,6 +28,7 @@ public class CreatePlayer {
     // Generate the Character Sheet with the name and stats    
         CreateUpdateCharacterSheet.createUpdateTheCharacterSheet();
         ShowStatsInGame.showCharacterInfo();
+        ShowStatsInGame.showInventoryInfo();
     
     // Return the player character name    
         return CoreValues.thePlayerName;

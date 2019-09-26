@@ -1,6 +1,8 @@
 package characterManagement;
 
 import olediuminjava.CoreValues;
+import characterManagement.CreateInventory;
+
 
 public class ShowStatsInGame {
     
@@ -15,7 +17,9 @@ public class ShowStatsInGame {
     }
     
     public static void showInventoryInfo() {
-        System.out.println("  \n\n---------------  Inventory   ---------------");
-        // Add calls to the inventory here 
+        System.out.println("  \n---------------  Inventory   ---------------");
+        System.out.println("Head: " + CreateInventory.singleInvItem("Head"));
+        System.out.println("Neck: " + CreateInventory.singleInvItem("Neck"));
+        System.out.println("Chest: " + CreateInventory.singleInvItem("Chest"));
     }
 }
